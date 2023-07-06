@@ -1,0 +1,30 @@
+body {
+    font-size: 18px;
+}
+
+.cuadro-principal {
+    display: flex;
+    
+
+
+}
+
+.cuadro-azul{
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 10px;
+ 
+}
+
+.cuadro-blanco { 
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.button-continue {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+
+}
