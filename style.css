@@ -1,30 +1,137 @@
+@font-face {
+    font-family:HankenGrotesk;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  }
+  *{
+    font-family:HankenGrotesk;
+  }
+
 body {
     font-size: 18px;
+    
 }
-
 .cuadro-principal {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
     
-
-
 }
 
 .cuadro-azul{
     background-color: hsl(234, 85%, 45%);
-    border-radius: 10px;
- 
+    border-radius: 40px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
 }
+
+ 
+.circle {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#04047e, #0808e5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.circle-paragraph {
+    margin:0;
+}
+
 
 .cuadro-blanco { 
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
 
 }
 
+ul {
+
+    list-style: none;
+}
+
+    .box-images {
+        color:red;
+        font-weight: bold;
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 25px;
+        border-radius: 5px;
+        background-color: rgb(245, 211, 211);
+        padding: 5px;
+
+    }
+    .box-memory      {
+        color: rgb(226, 226, 20);
+        font-weight: bold;
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 25px;
+        border-radius: 5px;
+        background-color: rgb(235, 233, 219);
+        padding: 5px;
+    }
+
+    .box-verbal{
+        color: rgb(52, 228, 164);
+        font-weight: bold;
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 25px ;
+        border-radius: 5px;
+        background-color: rgb(178, 246, 178);
+        padding: 5px;
+        
+    }
+    .box-visual {
+    color: darkblue;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 25px ;
+    border-radius: 5px;
+    background-color: rgb(186, 206, 238);
+    padding: 5px;
+
+  }
+ 
+
+.box span {
+    margin-left: 10px;
+  }
+
+
+
+  
 .button-continue {
     background-color: black;
     color: white;
-    width: 120px;
-    height: 40px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 25px;
 
 }
